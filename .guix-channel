@@ -1,0 +1,7 @@
+(channel
+ (version 0)
+ (url "https://github.com/aadcg/aadcg-guix-channel"))
+
+;; Local Variables:
+;; mode: guix-scheme
+;; End:
