@@ -1,0 +1,13 @@
+* Setup
+
+Add the channel to =~/.config/guix/channels.scm= and run =guix pull=.
+
+#+begin_src scheme :tangle ~/.config/guix/channels.scm
+(use-modules (guix ci))
+
+(list (channel
+       (name 'aadcg)
+       (url "https://github.com/aadcg/aadcg-guix-channel"))
+      (channel-with-substitutes-available %default-guix-channel
+                                          "https://ci.guix.gnu.org"))
+#+end_src
