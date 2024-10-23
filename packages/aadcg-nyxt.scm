@@ -22,7 +22,7 @@
 
 (define-public aadcg-nyxt
   (package
-    (name "nyxt")
+    (name "aadcg-nyxt")
     (version "3.12.0")
     (source
      (origin
@@ -152,7 +152,7 @@ is fully configurable and extensible in Common Lisp.")
   (let ((commit "bac6949eb149ed91763c25afe29a63aed8f5b395")
         (revision "0"))
     (package
-      (name "nyxt")
+      (name "aadcg-nyxt-latest")
       (version (git-version "4.0.0" revision commit))
       (source
        (origin (method git-fetch)
